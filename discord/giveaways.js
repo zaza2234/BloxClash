@@ -7,18 +7,18 @@ const reactionEmoji = '🎉';
 
 const giveawayTypes = {
     'daily': {
-        amount: 1000,
+        amount: 2500,
         minLvl: 3,
         duration: hourMs * 24,
         channel: discordIds.dailyGiveaways,
-        img: 'https://i.imgur.com/KXyWBgl.png'
+        img: 'https://imgur.com/a/Zi9xeXY'
     },
     'weekly': {
-        amount: 5000,
+        amount: 10000,
         minLvl: 5,
         duration: hourMs * 24 * 7,
         channel: discordIds.weeklyGiveaways,
-        img: 'https://i.imgur.com/qLxZu5S.png'
+        img: 'https://imgur.com/a/nG3u6rN'
     }
 }
 
