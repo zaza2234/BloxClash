@@ -35,7 +35,7 @@ if (process.env.NODE_ENV == 'development') {
 
 }
 
-app.options('*', (req, res) => {
+app.options('/*path', (req, res) => {
     res.sendStatus(204);
 });
 
