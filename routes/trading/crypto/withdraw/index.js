@@ -56,7 +56,7 @@ router.get('/transactions', isAuthed, async (req, res) => {
 
 });
 
-const kycAmount = 150; // 150usd
+const kycAmount = 1500; // 1500usd
 
 router.post('/', isAuthed, apiLimiter, async (req, res) => {
 
